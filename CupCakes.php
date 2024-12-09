@@ -161,8 +161,8 @@ body{
 }
 .topbar{
     /* background-color: #666; */
-    display: flex;  /* Make Flex container */
-    justify-content: center; /* Center horizontally */
+    display: flex; 
+    justify-content: center; 
 }
 .topbar ul{
     list-style-type: none;
@@ -195,7 +195,6 @@ a:link, a:visited{
 }
 
 .sweetmade{
-    /* float: left; */
     position: absolute;
     margin: 20px 40px;
     font-family: "Poller One", serif;
@@ -205,7 +204,6 @@ a:link, a:visited{
 }
 
 .leftbar{
-    /* position: absolute; */
     float: right;
     margin: -60px 40px;
 }
@@ -215,13 +213,11 @@ a:link, a:visited{
     cursor: pointer;
 }
   
-/* The container <div> - needed to position the dropdown content */
 .dropdown {
     position: relative;
     display: inline-block;
 }
   
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -231,7 +227,6 @@ a:link, a:visited{
     z-index: 1;
 }
   
-/* Links inside the dropdown */
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -239,10 +234,8 @@ a:link, a:visited{
     display: block;
 }
   
-/* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: lightgrey;}
   
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     transition: .5s;
     display: block;
@@ -253,32 +246,27 @@ a:link, a:visited{
     margin: 2% 0 0 5%;
 }
 
-/* Style the list */
 ul.breadcrumb {
     padding: 10px 16px;
     list-style: none;
 }
   
-/* Display list items side by side */
 ul.breadcrumb li {
     display: inline;
     font-size: 18px;
 }
   
-/* Add a slash symbol (/) before/behind each list item */
 ul.breadcrumb li+li:before {
     padding: 8px;
     color: #000;
     content: "\003E";
 }
   
-/* Add a color to all links inside the list */
 ul.breadcrumb li a {
     color: #000;
     text-decoration: none;
 }
   
-/* Add a color on mouse-over */
 ul.breadcrumb li a:hover {
     color: #A2673B;
     transition: .3s;
